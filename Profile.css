@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #999;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    margin: 0%;
+}
+
+.overlay{
+    background-color: wheat;
+    opacity: 0.8;
+}
+
+#column-2{
+    background-color: aliceblue;
+}
+
+h5 {
+    font-size: 20;
+}
+
+p{
+    font-size: 15;
+}
+
+#identity {
+    display: block;
+    width: 100%;
+}

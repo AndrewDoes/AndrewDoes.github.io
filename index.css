@@ -1,0 +1,63 @@
+body{
+    background-image: url('https://media.gq-magazine.co.uk/photos/5f0efb4f8f48ab377f4628f5/master/pass/20200715-pull.jpg');
+    background-size: cover;
+    width: 100%
+}
+
+.overlay{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    z-index: 2;
+    opacity: 0.9;
+
+}
+
+.overlay:hover{
+    opacity: 0.95;
+}
+
+[class*="col"]{
+    color: #fff;
+    border: 2px white;
+    text-align: center;
+}
+
+.row img{
+    height: 15rem;
+    width: 15rem;
+}
+.row h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.row button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#column-1{
+
+    margin-bottom: 20px;
+}
+
+#column-1:hover{
+    opacity: 1;
+}
+
+.col-sm-4{
+
+    padding: 20px;
+    height: 500px;
+}
+
+#right:hover{
+    opacity: 0.8;
+    background-color: #2c2a2a;
+}

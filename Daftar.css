@@ -1,0 +1,12 @@
+body{
+    background-image: url('https://themusclephd.com/wp-content/uploads/2020/04/Pushup2-scaled.jpg');
+    background-size: cover;
+}
+
+.card{
+    opacity: 0.9;
+}
+
+.card:hover{
+    opacity: 1;
+}
